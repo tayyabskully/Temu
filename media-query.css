@@ -1,0 +1,197 @@
+@media screen and (max-width: 1440px) {
+    .product-image-container{
+      max-height: 50vh;
+    }
+    }
+    @media screen and (max-width: 1024px) {
+    /* .product-image-container{
+      max-height: 70vh;
+    } */
+    }
+    
+    /* ----- MEDIA QUERIES FOR MAX-WIDTH 991px */
+    
+    @media screen and (max-width: 991px) {
+      .nav-toggle {
+        display: block;
+        margin-right: 50px;
+      }
+      .main-nav {
+        overflow: initial;
+      }
+    
+      .nav-links {
+        position: absolute;
+        background-color: rgb(68, 68, 68);
+        left: -150%;
+        top: 105%;
+        width: 100%;
+        padding-block: 30px;
+        transition: 0.2s ease-in-out;
+      }
+      .nav-links.active {
+        left: 0;
+      }
+      .nav-links ul {
+        flex-direction: column;
+      }
+      .nav-links ul .search-box {
+        order: 2;
+      }
+      .list-1 li a {
+        font-size: 12px;
+      }
+      .list-1 img {
+        width: 20px;
+        height: 20px;
+      }
+      .last-icon span {
+        font-size: 12px;
+      }
+      .last-icon img {
+        width: 20px;
+        height: 20px;
+      }
+      .product {
+        flex-wrap: wrap;
+        height: 155vh;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .product-domain {
+        justify-content: center;
+        flex-direction: column;
+      }
+      .product-details {
+        padding-block: 5px;
+        display: block;
+      }
+      .rating {
+        justify-content: center;
+        padding-top: 5px;
+      }
+      .footer-container {
+        max-width: 100%;
+        padding-inline: 2rem;
+      }
+    }
+    
+    /* ----- MEDIA QUERIES FOR MAX-WIDTH 767px */
+    
+    @media screen and (max-width: 767px) {
+      .product-domain {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+      }
+      .product-details {
+        padding-block: 5px;
+        display: flex;
+        padding-inline: 15px;
+      }
+      .product-domain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .rating {
+        margin-left: 5rem;
+        margin-right: 8px;
+      }
+    
+      .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+      }
+      .link-column {
+        align-items: center;
+      }
+      .list-1 li {
+        margin-right: 50px;
+      }
+      .carousel {
+        display: none;
+      }
+        .product-details h3 {
+          margin: 0;
+        }
+        .footer-bottom{
+          height: 35vh;
+        }
+    }
+    
+    /* ----- MEDIA QUERIES FOR MAX-WIDTH 479px */
+    
+    @media screen and (max-width: 479px) {
+      .section-1 img {
+        height: 20vh;
+      }
+      .section-1 img {
+        flex-direction: column;
+        width: 90%;
+      }
+      .section-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .list-1 ul {
+        padding: 0;
+      }
+      .image {
+        padding: 1rem;
+      }
+      .sale-containers {
+        flex-direction: column;
+      }
+      .sale-section {
+        width: 90%;
+        flex-direction: column;
+      }
+    
+      .big-sale-container-1 {
+        width: 90%;
+        border-radius: 5px;
+      }
+      .big-sale-container-2 {
+        width: 90%;
+        border-radius: 5px;
+      }
+      .payment-cont {
+        flex-direction: column;
+        height: 15vh;
+      }
+      .text-1 {
+        margin-left: 4rem;
+      }
+      .payment-cont h2 {
+        font-size: 22px;
+      }
+      .small-head {
+        padding-block: 5px;
+      }
+      .payment-methods a img {
+        width: 60px;
+        padding-bottom: 10px;
+      }
+      .product-domain {
+        justify-content: center;
+      }
+      .wrap-box{
+        flex-wrap: wrap;
+        width: 85%;
+      }
+      .product {
+        height: 100%;
+      }
+      .product-image-container{
+        margin-block: 1.5rem;
+      }
+      .section-2 {
+        display: none;
+      }
+    }
+    
